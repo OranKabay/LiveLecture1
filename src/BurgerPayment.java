@@ -5,7 +5,7 @@ public class BurgerPayment {
         System.out.println("How many burgers would you like?");
         
         double value = 101.0/4.0; //if double remember decimal places for full answer
-        System.out.println(value);
+        System.out.println(value);//all integers can be doubles, not the reverse
 
         Scanner reader = new Scanner(System.in);
         int noOfBurgers = reader.nextInt();
